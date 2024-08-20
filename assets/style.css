@@ -37,3 +37,33 @@ form legend{
     font-weight: bold;
     color: #fff;
 }
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="number"],
+form input[type="date"],
+form input[type="url"],
+form select
+form textarea{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button{
+    cursor: pointer;
+    background-color: #5cb855;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button:hover{
+    background-color: #5cb855;
+}
+
