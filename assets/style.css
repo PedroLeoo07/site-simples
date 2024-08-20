@@ -10,3 +10,30 @@ h1{
     text-align: center;
     color: #ff0000;
 }
+
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ff0000;
+}
+
+form fieldset{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form label{
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+form legend{
+    padding: 0 10px;
+    font-weight: bold;
+    color: #fff;
+}
